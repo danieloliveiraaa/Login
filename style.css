@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url("fundo.png");
+    background-repeat: no-repeat; /*não repete*/
+    background-size: cover; /*cobrir todo espaço*/
+    background-attachment: fixed;
+}
+
+
+/*
+POSICIONANDO O ELEMENTO PAI
+DIV ONDE GUARDO OS COMPONENTES
+*/
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+/*
+ESTILIZANDO O CARD
+*/
+
+.card {
+    /*numero apos a cor, adiciona opacidade*/
+    background-color: #ffffff80; 
+    padding: 70px;
+    border-radius: 4%;
+    box-shadow: 9px 9px 8px 1px #00000090;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+    color:#690033;
+    
+    font-style: italic;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 5px 5px;
+    /*FIXAR NUMA LINHA, INLINE-BLOCK*/
+    display: inline-block; 
+    border: 0;
+    border-bottom: 2px solid #690033;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+
+.label-float{
+    position: relative;
+    padding-top: 10px;
+    margin-bottom: 10%;
+}
+
+
+.label-float input:focus{
+    border-bottom: 2px solid #690033;
+}
+
+
+.label-float ::placeholder{
+    font-style: italic;
+    font-size: 13px;
+}
+
+
+
+
+
+
+.label-float input:focus + label{
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: transparent;
+    border-color: #5B002C;
+    border-style:solid;
+    color: #5B002C;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 13pt;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    height: 60px;
+    width: 80px;
+}
+
+button:hover{
+    background-color: #8a2958;
+    /*TRANSIÇÃO ANTES DE MUDAR A COR TOTALMENTE*/
+    color: #ffffff;
+    transition: all .7s ease-out; 
+}
+
+hr{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    width: 90%
+}
+
+hr{
+    color: #FC7C48;
+    font-size: 14pt;
+    text-align: center;
+}
+
+
+p{
+    font-style: italic;
+    font-size: 17px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+a{
+    color: #ffffff90;
+    font-weight: 550;
+    text-decoration: none;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+a:hover{
+    color: #58002F;
+    transition: all .8s ease-out; 
+}
+
+
+
+
+
+
+
+
+
+
