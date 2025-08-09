@@ -1,0 +1,11 @@
+ERP Para Cadastro de Produtos
+
+Requisitos Funcionais
+
+RF01 - O sistema deve permitir o cadastro de novos clientes.
+RF02 - O sistema deve permitir a edição dos dados de um cliente.
+RF03 - O sistema deve permitir a exclusão de um cliente.
+RF04 - O sistema deve permitir a busca de clientes por nome, CPF/CNPJ, e-mail ou telefone.
+RF05 - O sistema deve permitir a visualização detalhada dos dados de um cliente.
+RF06 - O sistema deve permitir a classificação de clientes por tipo (Pessoa Física ou Jurídica).
+RF07 - O sistema deve permitir exportar a lista de clientes para PDF ou Excel.
